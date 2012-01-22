@@ -17,4 +17,4 @@ set smtp-auth-user=login@host
 set smtp-auth-password=PASSWORD
 EOF
 
-${EDITOR} ${CONFIG} ${TEMPFILE}
+sudo ${EDITOR} ${CONFIG} ${TEMPFILE}

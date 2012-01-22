@@ -5,4 +5,5 @@ FOSWIKI_PATH='/srv/http/foswiki'
 FOSWIKI_BIN_PATH="${FOSWIKI_PATH}/bin"
 FOSWIKI_TOOLS_PATH="${FOSWIKI_PATH}/tools"
 
-cd ${FOSWIKI_BIN_PATH} && ${PERL} -I ${FOSWIKI_PATH}/lib ../tools/rewriteshebang.pl
+cd ${FOSWIKI_BIN_PATH} && sudo ${PERL} -I ${FOSWIKI_PATH}/lib ../tools/rewriteshebang.pl
+
