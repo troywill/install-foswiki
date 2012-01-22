@@ -1,0 +1,2 @@
+Syntax error on line 111 of /etc/httpd/conf/extra/httpd-vhosts.conf:
+Invalid command 'php_admin_flag', perhaps misspelled or defined by a module not included in the server configuration
