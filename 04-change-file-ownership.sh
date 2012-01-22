@@ -1,5 +1,5 @@
 #!/bin/sh
 PATH_TO_FOSWIKI='/srv/http/foswiki'
-USER=''
+USER='http'
 GROUP='http'
-chown --recursive ${USER}:${GROUP} ${PATH_TO_FOSWIKI}
+sudo chown --verbose --recursive ${USER}:${GROUP} ${PATH_TO_FOSWIKI}

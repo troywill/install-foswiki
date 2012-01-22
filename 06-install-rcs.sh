@@ -1,2 +1,3 @@
 #!/bin/sh
-pacman --sync rcs
+sudo pacman --sync rcs
+
