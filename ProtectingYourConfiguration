@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en_US" lang="en_US">
+<head>
+<title> ProtectingYourConfiguration &lt; Support &lt; Foswiki</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="icon" href="/pub/System/ProjectLogos/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/pub/System/ProjectLogos/favicon.ico" type="image/x-icon" />
+<link rel="alternate" href="http://foswiki.org/bin/edit/Support/ProtectingYourConfiguration?t=1343441976" type="application/x-wiki" title="edit ProtectingYourConfiguration" />
+<meta name="TEXT_NUM_TOPICS" content="Number of topics:" />
+<meta name="TEXT_MODIFY_SEARCH" content="Modify search" />
+<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/Support/WebRss" />
+<base href="http://foswiki.org/Support/ProtectingYourConfiguration" /><!--[if IE]></base><![endif]-->
+
+<style type="text/css" media="all">
+@import url('/pub/System/SkinTemplates/base.css');
+</style>
+<style type="text/css" media="all">
+@import url('/pub/System/PatternSkinThemeFatWilly/layout.css');
+@import url('/pub/System/PatternSkinThemeFatWilly/style.css');
+@import url('/pub/System/PatternSkinThemeFatWilly/colors.css');
+</style>
+<style type="text/css" media="all">
+
+
+</style><style type="text/css" media="all">
+	/* Styles that are set using variables */
+	.patternBookView .foswikiTopRow,
+	.patternWebIndicator a img,
+	.patternWebIndicator a:hover img {
+		background-color:#EFEFEF;
+	}
+	
+
+.patternBookView {
+	border-color:#EFEFEF;
+}
+.patternPreviewPage #patternMain {
+	/* uncomment to set the preview image */
+	/*background-image:url("/pub/System/PreviewBackground/preview2bg.gif");*/
+}
+</style>
+<style type="text/css" media="print">
+	@import url("/pub/System/PatternSkin/print.css");
+</style>
+<!--[if IE]><style type="text/css" media="screen">
+pre {
+	height:1%;
+	overflow-x:auto;
+}
+.foswikiAttachments,
+.foswikiForm,
+.foswikiHelp,
+.foswikiPreviewArea,
+.patternPreviewPage .foswikiForm,
+.patternSigLine,
+.patternToolBar,
+.patternTop,
+.patternTopicAction,
+#patternSideBarContents .patternLeftBarPersonal,
+#patternSideBarContents h2,
+#patternSideBarContents li,
+#patternTopBarButtons ul {
+	height:1%;
+}
+#patternSideBarContents .patternLeftBarPersonal {
+	width:100%;
+}
+.foswikiFormStep {
+	height:100%;
+}
+#foswikiLogin,
+.patternShadow {
+	border:10px solid #fff;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:2px solid #ccc;
+}
+</style><![endif]-->
+<!--[if gt IE 8 ]><style type="text/css" media="screen">
+#foswikiLogin,
+.patternShadow {
+	border:10px solid #fff;
+	margin-top:10px;
+	margin-bottom:10px;
+	box-shadow: 0 0 10px #ccc;
+}
+</style><![endif]-->
+<meta name='foswiki.ImagePluginEnabled' content='true' /><!--IMAGEPLUGIN::META-->
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.foswiki.org/" : "http://stats.foswiki.org/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.foswiki.org/piwik.php?idsite=1" style="border:0" alt=""/></p></noscript>
+<!-- End Piwik Tag --><!--PIWIK-->
+<style type="text/css" media="all">
+.externalLink a:link,
+.externalLink a:visited,
+.externalLink a:hover {
+	background-image:url(/pub/System/ExternalLinkPlugin/external.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-right:18px;
+}
+</style><!--ExternalLinkPlugin-->
+<meta name="foswiki.TWISTYANIMATIONSPEED" content="fast" /><!--TWISTYPLUGIN::META-->
+<link rel="stylesheet" href="http://foswiki.org/pub/System/ImagePlugin/style.css" type="text/css" media="all" /><!--IMAGEPLUGIN-->
+<meta name="foswiki.PUBURL" content="http://foswiki.org/pub" /> <!-- PUBURL -->
+<meta name="foswiki.PUBURLPATH" content="/pub" /> <!-- PUBURLPATH -->
+<meta name="foswiki.SCRIPTSUFFIX" content="" /> <!-- SCRIPTSUFFIX -->
+<meta name="foswiki.SCRIPTURL" content="http://foswiki.org/bin" /> <!-- SCRIPTURL -->
+<meta name="foswiki.SCRIPTURLPATH" content="/bin" /> <!-- SCRIPTURLPATH -->
+<meta name="foswiki.SERVERTIME" content="28%20Jul%202012%20-%2002:19" /> <!-- SERVERTIME -->
+<meta name="foswiki.SKIN" content="famfamfam%2cpattern" /> <!-- SKIN -->
+<meta name="foswiki.SYSTEMWEB" content="System" /> <!-- SYSTEMWEB -->
+<meta name="foswiki.TOPIC" content="ProtectingYourConfiguration" /> <!-- TOPIC -->
+<meta name="foswiki.USERNAME" content="guest" /> <!-- USERNAME -->
+<meta name="foswiki.USERSWEB" content="Main" /> <!-- USERSWEB -->
+<meta name="foswiki.WEB" content="Support" /> <!-- WEB -->
+<meta name="foswiki.WIKINAME" content="WikiGuest" /> <!-- WIKINAME -->
+<meta name="foswiki.WIKIUSERNAME" content="Main.WikiGuest" /> <!-- WIKIUSERNAME -->
+<meta name="foswiki.NAMEFILTER" content="%5b%5cs%5c*%3f~%5e%5c%24%40%25%60%22'%26%3b%7c%3c%3e%5c%5b%5c%5d%23%5cx00-%5cx1f%5d" /> <!-- NAMEFILTER --><!--JQUERYPLUGIN::FOSWIKI::META-->
+<script type='text/javascript' src='/pub/System/JQueryPlugin/jquery-1.7.1.js'></script><!--JQUERYPLUGIN-->
+<script type='text/javascript' src='/pub/System/JQueryPlugin/plugins/livequery/jquery.livequery.js?version=1.1.1'></script><!--JQUERYPLUGIN::LIVEQUERY-->
+<script type='text/javascript' src='/pub/System/JQueryPlugin/plugins/foswiki/jquery.foswiki.js?version=2.01'></script><!--JQUERYPLUGIN::FOSWIKI-->
+<script type="text/javascript" src="/pub/System/JavascriptFiles/foswikiPref.js"></script><!--JavascriptFiles/foswikiPref-->
+<script type="text/javascript" src="/pub/System/JavascriptFiles/foswikiString.js"></script><!--JavascriptFiles/foswikiString-->
+<script type="text/javascript" src="/pub/System/JavascriptFiles/foswikiForm.js"></script><!--JavascriptFiles/foswikiForm-->
+<script type="text/javascript" src="/pub/System/PatternSkin/pattern.js"></script><!--PatternSkin/pattern-->
+<script type='text/javascript' src='/pub/System/JQueryPlugin/plugins/easing/jquery.easing.js?version=1.3'></script><!--JQUERYPLUGIN::EASING-->
+<script type='text/javascript' src='/pub/System/JQueryPlugin/plugins/bgiframe/jquery.bgiframe.js?version=2.1.2'></script><!--JQUERYPLUGIN::BGIFRAME-->
+<script type='text/javascript' src='/pub/System/JQueryPlugin/plugins/metadata/jquery.metadata.js?version=2.1ef2bb44c86f5d0e98d55'></script><!--JQUERYPLUGIN::METADATA-->
+</head>
+<body class="foswikiNoJs patternViewPage">
+<a name="PageTop"></a><div class="foswikiPage"><div id="patternScreen">
+<div id="patternPageShadow"><div id="foswikisiteUserBar"><ul><li>Hello <a href="/Main/WikiGuest">WikiGuest</a></li>
+        <li><a href="/bin/login/Support/ProtectingYourConfiguration?foswiki_origin=GET%2cview%2c/Support/ProtectingYourConfiguration">Log In</a> or <a href="/System/UserRegistration">Register</a></li><li><a href="/Main/WikiUsers">Users</a></li></ul></div>
+<div id="patternPage">
+<div id="patternWrapper"><div id="patternOuter">
+<div id="patternFloatWrap">
+<div id="patternMain"><div id="patternClearHeaderCenter"></div><div id="patternTopBarButtons"><ul>
+<li><a href="http://foswiki.org/About/WebHome" class="inactive">About</a></li>
+<li><a href="http://blog.foswiki.org/" class="inactive">Blog</a></li>
+<li><a href="http://foswiki.org/Extensions/WebHome" class="inactive">Extensions</a></li>
+<li><a href="http://foswiki.org/System/WebHome" class="inactive">Documentation</a></li>
+<li><a href="http://foswiki.org/Community/WebHome" class="inactive">Community</a></li>
+<li><a href="http://foswiki.org/Development/WebHome" class="inactive">Development</a></li>
+<li><a href="http://foswiki.org/Tasks/WebHome" class="inactive">Tasks</a></li>
+<li><a href="http://foswiki.org/Download/WebHome" class="inactive">Download</a></li>
+<li><a href="http://foswiki.org/Support/WebHome" class="active">Support</a></li>
+</ul><div class="foswikiClear"></div></div>
+<div id="patternMainContents"><div class="patternTop"><span class="patternHomePath foswikiLeft"><span class="patternHomePathTitle">You are here: </span><a href="/Main/WebHome">Foswiki</a><span class='foswikiSeparator'>&gt;</span><a href="/Support/WebHome">Support Web</a><span class='foswikiSeparator'>&gt;</span><a href="/Support/SupplementalDocuments">SupplementalDocuments</a><span class='foswikiSeparator'>&gt;</span><a href="http://foswiki.org/Support/ProtectingYourConfiguration" title='Topic revision: 10 (19 Nov 2011 - 14:34:20)'>ProtectingYourConfiguration</a> <span class='patternRevInfo'>(19 Nov 2011, <a href="/Main/AndrewJones">AndrewJones</a>)</span></span><span class="patternToolBar foswikiRight"><span class="foswikiToolBar foswikiRight foswikiUnauthenticated">
+		<span>
+	<a href="http://foswiki.org/bin/edit/Support/ProtectingYourConfiguration?t=1343441976" title="Edit this topic text (e)">
+		<img alt="Edit this topic text (e)" src="http://foswiki.org/pub/System/FamFamFamSilkIcons/pencil.png" width="16" height="16" />
+	</a></span><span>
+	<a href="http://foswiki.org/bin/attach/Support/ProtectingYourConfiguration" title="Attach an image or document to this topic; manage existing attachments (a)">
+		<img alt="Attach an image or document to this topic; manage existing attachments (a)" src="http://foswiki.org/pub/System/FamFamFamSilkIcons/attach.png" width="16" height="16" />
+	</a></span><span>
+	<a href="http://foswiki.org/bin/rdiff/Support/ProtectingYourConfiguration?type=history" title="View sequential topic history">
+		<img alt="View sequential topic history" src="http://foswiki.org/pub/System/FamFamFamSilkIcons/page_white_stack.png" width="16" height="16" />
+	</a></span><span>
+	<a href="http://foswiki.org/Support/ProtectingYourConfiguration?raw=on&amp;rev=10" title="View without formatting (v)">
+		<img alt="View without formatting (v)" src="http://foswiki.org/pub/System/FamFamFamSilkIcons/text_align_left.png" width="16" height="16" />
+	</a></span><span>
+	<a href="http://foswiki.org/Support/WebCreateNewTopic?topicparent=ProtectingYourConfiguration" title="Create new topic">
+		<img alt="Create new topic" src="http://foswiki.org/pub/System/FamFamFamSilkIcons/page_white_add.png" width="16" height="16" />
+	</a></span><span>
+	<a href="http://foswiki.org/Support/ProtectingYourConfiguration?cover=print;" title="Printable version of this topic (p)">
+		<img alt="Printable version of this topic (p)" src="http://foswiki.org/pub/System/FamFamFamSilkIcons/printer.png" width="16" height="16" />
+	</a></span><span>
+        <a href="http://foswiki.org/bin/oops/Support/ProtectingYourConfiguration?template=more&amp;maxrev=10&amp;currrev=10" title="More: delete or rename this topic; set parent topic; view and compare revisions (m)">
+                <img alt="More: delete or rename this topic; set parent topic; view and compare revisions (m)" src="http://foswiki.org/pub/System/FamFamFamSilkIcons/wrench.png" width="16" height="16" />
+	</a></span> 
+		</span></span><div class="foswikiClear"></div></div><div class="foswikiContentHeader"></div><div class="patternContent"><div class="foswikiTopic"><h1><a name="Protecting_Your_Configuration"></a>  Protecting Your Configuration </h1>
+<p></p>
+<a name="foswikiTOC"></a><div class="foswikiToc"> <ul>
+<li> <a href="#Introduction"> Introduction </a>
+</li> <li> <a href="#Protect_against_viewing"> Protect against viewing </a>
+</li> <li> <a href="#Defining_a_user_and_password_for_accessing_configure"> Defining a user and password for accessing configure </a> <ul>
+<li> <a href="#Temporarily_protect_configure_by_IP_address"> Temporarily protect configure by IP address </a>
+</li> <li> <a href="#Establish_a_Foswiki_user_and_change_Apache_to_use_that_ID_for_configure"> Establish a Foswiki user and change Apache to use that ID for configure </a>
+</li> <li> <a href="#Alternative:_Create_special_configure_username"> Alternative: Create special configure username </a>
+</li></ul> 
+</li></ul> 
+</div>
+<h2><a name="Introduction"></a>  Introduction </h2>
+<p></p>
+The <code>configure</code> script in the <code>bin</code> directory is used for the administrator to setup the Foswiki site.
+<p></p>
+This script is
+<p></p> <ul>
+<li> More vulnerable than the rest of Foswiki as it has not been subjected to the same degree of safety reviewing and hardening as the rest of Foswiki.
+</li> <li> Even with view only access it reveals details about your installation an attacker can use in an effort to break in.
+</li> <li> Protected by a unique password for saving - but this requires that you have defined a password.
+</li></ul> 
+<p></p>
+<h2><a name="Protect_against_viewing"></a>  Protect against viewing </h2>
+<p></p>
+Protecting the configure script against viewing is done using your webservers basic authentication mechanism.
+<div class='imageFrame imageFrame_none ' style='_width:182px;max-width:182px;'><a class='imageHref' title='Authentication flow' href='/pub/Support/ProtectingYourConfiguration/foswiki-auth-path.png'><img border='0' src='/pub/Support/ProtectingYourConfiguration/igp_4b1ec49fb496b0ce4e8bfdca570a56a1_foswiki-auth-path.png' alt='foswiki-auth-path.png' width='180' height='139'  /></a><div class='imageCaption'> <div class='imageMagnify'><a title='Enlarge' href='/pub/Support/ProtectingYourConfiguration/foswiki-auth-path.png'><img border='0' src='/pub/System/ImagePlugin/magnify-clip.png' width='15' height='11' alt='Enlarge' /></a></div>Authentication flow </div></div>
+Both the example <code>foswiki_httpd_conf.txt</code> found in the root of the distribution and the <a href="/Support/ApacheConfigGenerator">ApacheConfigGenerator</a> contain a section that protects configure by requiring authentication to view the configure script.
+<p></p>
+In <a href="/Support/ApacheConfigGenerator">ApacheConfigGenerator</a> you can provide two mechanisms
+<p></p> <ul>
+<li> Enter the IP address range or hostnames that will have access to configure - separate with spaces
+</li> <li> Enter the list of user names that are allowed to view configure
+</li></ul> 
+You can provide both and decide whether to authenticate satisfying one or both conditions.
+<p></p>
+Recommended is to only give access through the use of username and password.
+<p></p>
+Below is an example where you protect by either IP address (localhost in this example) or authenticated user (in this example we call him "configureuser"):
+<p></p>
+<img src="/pub/System/DocumentGraphics/warning.png" alt="ALERT!" title="ALERT!" width="16" height="16" /> <strong>Security advice:</strong> While you <em>can</em> use actual Foswiki user names here, consider <em>not</em> to do this. If the name of the administrator account is unknown (remember it doesn't <em>have</em> to be <code>admin</code> either), dictionary attacks against the password (alone) are bound to fail--on the other hand, "normal" user names (especially in public wikis which also display their user directory) are not really a secret.
+<p></p>
+<blockquote> <pre>
+# Limit access to configure to specific IP addresses or users.
+# Make sure configure is not open to the general public.
+# It exposes system details that can help attackers.
+&#60;FilesMatch &#34;^(configure)$&#34;&#62;
+    SetHandler cgi-script
+    Order Deny,Allow
+    Deny from all
+    Allow from localhost
+    Require user configureuser
+    Satisfy Any
+&#60;/FilesMatch&#62;
+</pre> </blockquote>
+<p></p>
+If you wanted to limit access to <code>configure</code> to <em>both</em> specific IP addresses <em>and</em> users, change the <code>Satisfy</code> setting above to
+<p></p>
+<blockquote> <pre>
+    Satisfy All
+</pre> </blockquote>
+<p></p>
+Below an example of only protecting using authentication (recommended):
+<p></p>
+<blockquote> <pre>
+# Limit access to configure to specific users.
+# Make sure configure is not open to the general public.
+# It exposes system details that can help attackers.
+&#60;FilesMatch &#34;^(configure)$&#34;&#62;
+    SetHandler cgi-script
+    Order Deny,Allow
+    Deny from all
+    Require user configureuser
+    Satisfy Any
+&#60;/FilesMatch&#62;
+</pre> </blockquote>
+<p></p>
+<img src="/pub/System/DocumentGraphics/warning.png" alt="ALERT!" title="ALERT!" width="16" height="16" /> If you run configure protected by IP address or no protection at all configure will show a very visible warning messages but it will function normally.
+<p></p>
+<h2><a name="Defining_a_user_and_password_for_accessing_configure"></a>  Defining a user and password for accessing configure </h2>
+<p></p>
+The next problem is to setup a user for configure. For this you need a <code>.htpasswd</code> file for Apache.
+<p></p>
+You can use any <code>.htpasswd</code> file but in the configuration examples and the configuration used by <a href="/Support/ApacheConfigGenerator">ApacheConfigGenerator</a> we use the same file for configure that we later use for the running Foswiki. This way you have everything at the same place and the configuration becomes simpler.
+<p></p>
+<strong>Some notes of warning</strong>
+<p></p> <ul>
+<li> <img src="/pub/System/DocumentGraphics/warning.png" alt="ALERT!" title="ALERT!" width="16" height="16" /> If you have run an earlier version of TWiki or Foswiki and you are upgrading simply use the <code>.htpasswd</code> file from the old installation and you can use your normal login name in the "Require user nnnn" line in your Foswiki Apache config file.
+</li> <li> <img src="/pub/System/DocumentGraphics/warning.png" alt="ALERT!" title="ALERT!" width="16" height="16" /> An existing <code>.htpasswd</code> file is in a special format where the users email addresses are stored along with the password. If you use the <code>htpasswd</code> program on an existing .htpasswd file all the email addresses will be deleted. So never use the <code>htpasswd</code> program on an existing Foswiki <code>.htpasswd</code> file.
+</li></ul> 
+If we assume that this is the first time you install Foswiki there are two ways to get started in a safe way
+<p></p>
+<h3><a name="Temporarily_protect_configure_by_IP_address"></a>  Temporarily protect configure by IP address </h3>
+<p></p>
+The easiest way to protect configure initially is by IP address and typically using <code>localhost</code> if you are working directly on the webserver and have a desktop with a browser. If you work remote you need to give the IP address of the remote machine from with you open configure in your browser.
+<p></p>
+Here are the steps.
+<p></p> <ul>
+<li> Generate an Apache config file for Foswiki using the <a href="/Support/ApacheConfigGenerator">ApacheConfigGenerator</a>  <ul>
+<li> Choose to protect BOTH with a username and IP address
+</li> <li> Give either localhost, or the remote machine you work on as IP address
+</li> <li> Give the login name you will later use for registration on the Foswiki for yourself
+</li></ul> 
+</li></ul> 
+<img src="/pub/System/DocumentGraphics/tip.png" alt="TIP" title="TIP" width="16" height="16" /> <strong>Note</strong>: You need to use your real IP address as seen by the web server. If you are accessing a remote hosting location, you might be on a translated IP address. Use a site such as <a href="http://whatismyipaddress.com/" target="_top">http://whatismyipaddress.com/</a> to discover or verify your real IP address that the remote server will see.This is the IP address that needs to be used in the Apache configuration.
+<p></p> <ul>
+<li> Run configure and setup your server (ignore the warning about unsecure access)
+</li> <li> When saving the configuration the first time, remember to define a new password. <strong><em>This password is different from the one you later use to access Foswiki and view configure.</em></strong> By using a different password we get an extra level of security. This password will be used for a couple of things:  <ul>
+<li> It is needed whenever you save the configuration
+</li> <li> It is used as a special "admin" or "sudo" superuser password for temporary administrator rights on Foswiki.
+</li></ul> 
+</li></ul> 
+<p></p>
+<h3><a name="Establish_a_Foswiki_user_and_change_Apache_to_use_that_ID_for_configure"></a>  Establish a Foswiki user and change Apache to use that ID for configure </h3> <ul>
+<li> Register on the Foswiki
+</li> <li> Add yourself to the <code>AdminGroup</code>.(optional)  <ul>
+<li> To add yourself to the <code>AdminGroup</code> you need to use the special admin login (use link on the <code>Main.AdminGroup</code> topic). The username is "admin" and the password is the one you defined when you <strong>saved</strong> first time in configure.
+</li></ul> 
+</li> <li> Now that you have a username you also have an entry in the <code>.htpasswd</code> file.  <ul>
+<li> You can add this user to the <code>Require user [your user]</code> statement in the apache configuration and
+</li> <li> You can now remove the access by IP address from the Foswiki config file. You remove the lines <code>Allow from localhost</code>, and <code>Satisfy Any</code> from the section that defines the protection for configure (like shown in the above examples).
+</li></ul> 
+</li> <li> Restart your Apache daemon.
+</li> <li> Verify that you now need to authenticate with your Foswiki login name and Foswiki password to view configure. And verify that the warning is gone from configure.
+</li></ul> 
+<p></p>
+<h3><a name="Alternative:_Create_special_configure_username"></a>  Alternative: Create special configure username </h3>
+<p></p>
+An alternative method is to create a special configure user. Again remember the warning from above. Never run the program <code>htpasswd</code> on an existing Foswiki <code>.htpasswd</code> file or it will wipe out all email addresses.
+<p></p> <ul>
+<li> Generate an Apache config file for Foswiki using the <a href="/Support/ApacheConfigGenerator">ApacheConfigGenerator</a>  <ul>
+<li> Choose only with a username
+</li> <li> DO NOT give the login name you will later use for registration on the Foswiki because an existing entry in the <code>.htpasswd</code> file will prevent you from registering with the same login name in Foswiki user registration.
+</li></ul> 
+</li> <li> Create an initial <code>.htpasswd</code> file with the user - for example "configureuser"  <ul>
+<li> Change directory to the data directory of your Foswiki installation, <code>cd /path/to/data</code>
+</li> <li> Create the <code>.htpasswd</code> file. <code>htpasswd -c .htpasswd configureuser</code>
+</li> <li> You will be prompted for the password twice
+</li> <li> Change owner to the apache daemon user. Normally <code>apache</code> or <code>www-data</code>. Requires root so on Ubuntu use: <code>sudo chown apache:apache .htpasswd</code>
+</li> <li> Change access rights for read/write for Apache only. <code>chmod 660 .htpasswd</code>
+</li></ul> 
+</li></ul> 
+<img src="/pub/System/DocumentGraphics/tip.png" alt="TIP" title="TIP" width="16" height="16" /> If the <code>.htpasswd</code> file already exists, you can carefully edit the file and copy/paste in an admin id generated using: <code>htpasswd -bns configureuser secretpassword</code>
+<p></p> <ul>
+<li> Run configure and setup your server (using the configureuser and the password you gave for authentication)
+</li> <li> When saving the configuration the first time, remember to define a new password. This password is different from the one you later use to access Foswiki and view configure. By using a different password we get an extra level of security.
+</li></ul> 
+<p></p> <ul>
+<li> Register on the Foswiki
+</li> <li> Add yourself to the <code>AdminGroup</code>.  <ul>
+<li> To add yourself to the <code>AdminGroup</code> you need to use the special admin login (use link on the <code>Main.AdminGroup</code> topic). The username is "admin" and the password is the one you defined when you <strong>saved</strong> first time in configure.
+</li></ul> 
+</li> <li> Now that you have a username you also have an entry in the <code>.htpasswd</code> file.
+</li> <li> You can keep the special configure user but you may instead want to change to using the same login name that you used to register on Foswiki. Then do these steps.  <ul>
+<li> In the Foswiki Apache config file replace the "configureuser" by the login name you used to register on Foswiki.
+</li> <li> Using an editor and while being root, remove the line for "configureuser" from the <code>.htpasswd</code> file.
+</li> <li> Restart the Apache daemon
+</li> <li> Verify that you can access configure with the Foswiki username and password
+</li></ul> 
+</li></ul>  </div>
+<div class="foswikiContentFooter"></div><div class="foswikiFormSteps"><a name="topic-actions"></a><div class="patternTopicActions foswikiFormStep"><span class="patternActionButtons"><span class="foswikiRequiresChangePermission"><a href='http://foswiki.org/bin/edit/Support/ProtectingYourConfiguration?t=1343441976' rel='nofollow' title='Edit this topic text' accesskey='e'><span class='foswikiAccessKey'>E</span>dit</a></span><span class='foswikiSeparator'>&nbsp;|&nbsp;</span><span class="foswikiRequiresChangePermission"><a href='/bin/attach/Support/ProtectingYourConfiguration' rel='nofollow' title='Attach an image or document to this topic' accesskey='a'><span class='foswikiAccessKey'>A</span>ttach</a></span><span class='foswikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/Support/ProtectingYourConfiguration?cover=print;' rel='nofollow' title='Printable version of this topic' accesskey='p'><span class='foswikiAccessKey'>P</span>rint version</a></span><span class='foswikiSeparator'>&nbsp;|&nbsp;</span><span><span class="foswikiRequiresChangePermission"><a href='/bin/oops/Support/ProtectingYourConfiguration?template=oopshistory' rel='nofollow' title='View total topic history' accesskey='h'><span class='foswikiAccessKey'>H</span>istory</a></span>: r10&nbsp;<a rel="nofollow" href="/bin/compare/Support/ProtectingYourConfiguration?rev1=9;rev2=10">&lt;</a>&nbsp;<a rel="nofollow" href="/Support/ProtectingYourConfiguration?rev=9">r9</a>&nbsp;<a rel="nofollow" href="/bin/compare/Support/ProtectingYourConfiguration?rev1=8;rev2=9">&lt;</a>&nbsp;<a rel="nofollow" href="/Support/ProtectingYourConfiguration?rev=8">r8</a>&nbsp;<a rel="nofollow" href="/bin/compare/Support/ProtectingYourConfiguration?rev1=7;rev2=8">&lt;</a>&nbsp;<a rel="nofollow" href="/Support/ProtectingYourConfiguration?rev=7">r7</a></span><span class='foswikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/Support/ProtectingYourConfiguration?template=backlinksweb' rel='nofollow' title='Search the Support Web for topics that link to here' accesskey='b'><span class='foswikiAccessKey'>B</span>acklinks</a></span><span class='foswikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/Support/ProtectingYourConfiguration?raw=on' rel='nofollow' title='View without formatting' accesskey='v'><span class='foswikiAccessKey'>V</span>iew wiki text</a></span><span class='foswikiSeparator'>&nbsp;|&nbsp;</span><span class="foswikiRequiresChangePermission"><a href='http://foswiki.org/bin/edit/Support/ProtectingYourConfiguration?t=1343441976;nowysiwyg=1' rel='nofollow' title='Edit Wiki text' accesskey='w'>Edit <span class='foswikiAccessKey'>w</span>iki text</a></span><span class='foswikiSeparator'>&nbsp;|&nbsp;</span><span><a href='/Support/ProtectingYourConfiguration?template=more&amp;maxrev=10&amp;currrev=10' rel='nofollow' title='Delete or rename this topic; set parent topic; view and compare revisions' accesskey='m'><span class='foswikiAccessKey'>M</span>ore topic actions</a></span></span></div></div></div><div class="patternInfo"><span class="patternRevInfo">Topic revision: 19 Nov 2011, <a href="/Main/AndrewJones">AndrewJones</a></span></div>
+</div>
+</div><div id="patternSideBar"><div id="patternClearHeaderLeft"></div>
+<div id="patternSideBarContents"><div class="patternWebIndicator" style="border-color:#EFEFEF">
+<a href='http://foswiki.org/Support/WebHome'>Support</a>
+</div>
+ <!-- support.webleftbar -->
+<h2><a name="Quick_Links"></a>  Quick Links </h2> <ul>
+<li> <a href="/Support/SupportQuestions">Support questions</a>
+</li> <li> <a href="/Support/FAQ">FAQ's</a>
+</li> <li> <a href="/Support/BestPracticeTips">Tips</a>
+</li> <li> <a href="/Support/Extensions">Extensions support</a>
+</li> <li> <a href="/Support/SupplementalDocuments">Supplemental documents</a>
+</li> <li> <a href="/Support/WikiConsultants">Wiki consultants</a>
+</li></ul> 
+<p></p>
+<h2><a name="Tools"></a>  Tools </h2> <ul>
+<li> <a href="/Tasks/WebHome">Tasks</a>
+</li> <li> <a href="/Support/WebTopicList">Index</a>
+</li> <li> <a href="/Support/WebChanges">Changes</a>
+</li> <li> <a href="/System/FoswikiSiteChanges">Changes in all webs</a>
+</li> <li> <a href="/Support/WebNotify">Notifications</a>
+</li> <li> <a href="/Support/WebStatistics">Statistics</a>
+</li> <li> <a href="/Sandbox/WebHome">Sandbox</a> <!-- support.webleftbar --> 
+</li></ul> 
+<p></p>
+</div></div>
+</div>
+<div class="clear">&nbsp;</div>
+</div></div><div id="patternTopBar"><div id="patternTopBarContentsWrapper"><div id="patternTopBarContents"><table border="0" cellpadding="0" cellspacing="0" style="width:100%">
+<tr><td valign="middle"><span id="foswikiLogo" class="foswikiImage"><a href="http://foswiki.org/"><img src="http://foswiki.org/pub/System/ProjectLogos/foswiki-logo.gif" border="0" alt="Powered by Foswiki, The Free and Open Source Wiki" style="border:none;" /></a></span></td>
+<td align="right" valign="top" class="patternMetaMenu">
+ <ul>
+<li> <form name="quickSearchForm" action="/Support/WebSearch"><input type="text" class="foswikiInputField" id="quickSearchBox" name="search" value="" size="18" /><input type="hidden" name="scope" value="all" /><input type="hidden" name="web" value="Home,About,System,Extensions,Support,Community,Development,Download,Tasks,Main" /><noscript>&nbsp;<input type="submit" size="5" class="foswikiButton" name="submit" value="Search" />&nbsp;</noscript>   </form>
+</li></ul> 
+</td></tr></table></div></div></div><div id="patternBottomBar"><div id="patternBottomBarContents"><div id="patternWebBottomBar"><span class="foswikiRight">The copyright of the content on this website is held by the contributing authors, except where stated elsewhere. see <a href="/Community/CopyrightStatement">CopyrightStatement</a>.  <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://foswiki.org/pub/System/SiteGraphics/cc-by-sa-3.0-88x31.png" /></a></span><!-- left --><a href="http://sourceforge.net/projects/foswiki"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=245751&amp;type=13" width="120" height="30" border="0" alt="Get Foswiki at sourceforge.net. Fast, secure and Free Open Source software downloads" /></a></div></div></div>
+</div>
+</div>
+</div>
+</div></body></html>
