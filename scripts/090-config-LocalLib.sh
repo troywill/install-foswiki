@@ -7,4 +7,5 @@ CONFIG_FILE='/srv/http/foswiki/bin/LocalLib.cfg'
 ${SUDO} cp --verbose --preserve ${CONFIG_FILE_TEMPLATE} ${CONFIG_FILE}
 ${SUDO} chmod --verbose g+w ${CONFIG_FILE}
 sleep 5 && echo 'Please wait ...'
-${EDITOR} ${CONFIG_FILE}
+${SUDO} ${EDITOR} ${CONFIG_FILE}
+

@@ -1,0 +1,13 @@
+* 2012-09-27 [0/12]
+1. [ ] 010-install-apache.sh
+2. [ ] 020-download-foswiki.sh [0/0]
+3. [ ] 030-clone-foswiki.sh
+4. [ ] 040-unpack-foswiki.sh [0/0]
+5. [ ] 050-change-file-ownership.sh
+6. [ ] 060-install-rcs.sh [0/0]
+7. [ ] 070-install-perl-modules.sh
+8. [ ] 080-configure-web-server.org [0/0]
+9. [ ] 090-config-LocalLib.sh
+10. [ ] 100-set-datadir-password.sh [0/0]
+11. [ ] 110-configure-sendmail.sh
+12. [ ] 120-adjust-perl-path.sh [0/0]

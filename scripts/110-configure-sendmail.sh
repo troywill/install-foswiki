@@ -5,7 +5,7 @@ TEMPFILE='/tmp/delete_me'
 EDITOR='emacs'
 
 
-pacman --sync mailx-heirloom
+sudo pacman --sync mailx-heirloom
 
 cat > ${TEMPFILE} <<EOF
 set sendmail="/usr/bin/mailx"
