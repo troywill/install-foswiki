@@ -1,0 +1,4 @@
+* Important Foswiki Web links
+  1. Installation Guide => http://foswiki.org/System/InstallationGuide
+  2. Apache Config Generator => http://foswiki.org/Support/ApacheConfigGenerator
+  3. Protecting Your Configuration => http://foswiki.org/Support/ProtectingYourConfiguration
